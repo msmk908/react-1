@@ -10,7 +10,6 @@ import CommentList from './chapter-05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Counter from './연습용/test-1';
 import Counter2 from './연습용/test-2';
-import UserStatus from './연습용/test-3';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButton2 from './chapter_08/ConfirmButton2';
