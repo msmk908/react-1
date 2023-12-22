@@ -14,12 +14,14 @@ import UserStatus from './연습용/test-3';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButton2 from './chapter_08/ConfirmButton2';
+import Toolbar from './chapter_09/Toolbar';
+import LandingPage from './chapter_09/LandingPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
-      <ConfirmButton2 />
+      <LandingPage />
     </React.StrictMode>
   );
 
