@@ -9,7 +9,7 @@ function BoilingBerdict(props) {
 }
 
 function toCelsius(fahrenheit) {
-    return ((fahrenheit -32) * 5 ) / 9 ;
+    return ((fahrenheit - 32) * 5) / 9;
 }
 
 function toFahrenheit(celsius) {
@@ -41,9 +41,9 @@ function Calculator(props) {  // 온도 계산
     };
 
     const celsius =
-    scale === "f" ? tryConvert(temperature, toCelsius) : temperature;  // 화씨로 입력되었다면 섭씨로 변환하여 입력
+        scale === "f" ? tryConvert(temperature, toCelsius) : temperature;  // 화씨로 입력되었다면 섭씨로 변환하여 입력
     const fahrenheit =
-    scale === "c" ? tryConvert(temperature, toFahrenheit) : temperature;  // 섭씨로 입력되었다면 화씨로 변환하여 입력
+        scale === "c" ? tryConvert(temperature, toFahrenheit) : temperature;  // 섭씨로 입력되었다면 화씨로 변환하여 입력
 
     return (
         <div>
@@ -53,11 +53,11 @@ function Calculator(props) {  // 온도 계산
                 onTemperatureChange={handleCelsiusChange}
             />
             <TemperatureInput                               //화씨 입력 받는 부분
-            scale="f"
-            temperature={fahrenheit}
-            onTemperatureChange={handleFahrenheitChange}
+                scale="f"
+                temperature={fahrenheit}
+                onTemperatureChange={handleFahrenheitChange}
             />
-            <BoilingBerdict celsius={parseFloat(celsius)}/>  
+            <BoilingBerdict celsius={parseFloat(celsius)} />
         </div>
     );
 }
