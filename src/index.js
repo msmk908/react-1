@@ -21,12 +21,16 @@ import TemperatureInput from './chapter_12/TemperatureInput';
 import Calculator from './chapter_12/Calculator';
 import ProfileCard from './chapter_13/ProfileCard';
 import DarkOrLight from './chapter_14/DarkOrLight';
+import MainPage from './chapter_15/MainPage';
+import Sample from './chapter_15/Button';
+import Sample2 from './chapter_15/Button2';
+import Blocks from './chapter_15/Blocks';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
-      <DarkOrLight />
+      <Blocks />
     </React.StrictMode>
   );
 
